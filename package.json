@@ -2,5 +2,15 @@
   "private": true,
   "name": "planetscale-container",
   "version": "0.0.0",
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@changesets/cli": "^2.16.0",
+    "@ianwalter/eslint-config": "^6.2.0",
+    "@ianwalter/renovate-config": "^1.4.4"
+  },
+  "renovate": {
+    "extends": [
+      "@ianwalter"
+    ]
+  }
 }
